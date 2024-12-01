@@ -74,6 +74,42 @@
       "artifacts": [
         "console"
       ]
+    },
+    "C:\\Users\\lenovo\\Hardhat\\hardhat-tutorial\\contracts\\Rocket.sol": {
+      "lastModificationDate": 1733058378243,
+      "contentHash": "03c3af578eb915505af4e6d688d056e5",
+      "sourceName": "contracts/Rocket.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Rocket"
+      ]
     }
   }
 }
